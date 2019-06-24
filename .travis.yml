@@ -1,0 +1,26 @@
+sudo: false
+language: python
+services:
+  - docker
+cache:
+  directories:
+    - $HOME/.cache/pip
+
+matrix:
+  include:
+    - env: TOX_ENV=py36
+      python: 3.6
+
+install:
+  - pip install -U tox- pip install codecov
+
+
+script: travis_retry tox -e $TOX_ENV
+
+after_success:
+  - codecov
+
+deploy:
+  provider: heroku
+  api_key: $HEROKU_API_KEY
+  app: mafiapm

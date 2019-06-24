@@ -1,0 +1,7 @@
+sanic
+json-logging-py
+gino
+aiohttp
+gidgethub
+sanic-jinja2
+alembic
