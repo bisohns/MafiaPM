@@ -18,12 +18,11 @@ Much thanks and appreciation to everyone who made this project possible
 ## TODO
 
 - [ ] Web application to detect `.mpm.yml` on project root
-- [ ] Parse `mpm.yml` files and deploy file appropriately 
+- [ ] Parse `mpm.yml` files and deploy file appropriately
 
 ## Credits
 
 - [gidgethub](https://github.com/brettcannon/gidgethub/)
-- [aiohttp](https://github.com/aio-libs/aiohttp)
 - [sanic](https://github.com/huge-success/sanic)
 - [gino](https://github.com/fantix/gino)
 
