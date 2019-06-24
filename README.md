@@ -24,6 +24,8 @@ Much thanks and appreciation to everyone who made this project possible
 
 - [gidgethub](https://github.com/brettcannon/gidgethub/)
 - [aiohttp](https://github.com/aio-libs/aiohttp)
+- [sanic](https://github.com/huge-success/sanic)
+- [gino](https://github.com/fantix/gino)
 
 
 ## Contribution

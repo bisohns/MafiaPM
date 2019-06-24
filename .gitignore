@@ -577,3 +577,5 @@ ASALocalRun/
 .cache
 
 .vscode/
+mafiapm.pem
+.editorconfig
