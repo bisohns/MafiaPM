@@ -6,6 +6,17 @@
 <br>
 
 MafiaPM is a github application built to manage portfolio sites automatically without the hassle of going back and forth to update your portfolio site with new github applications. Let the Mafia work for you instead
+It is built using the python Web Framework, [Sanic](http://github.com/huge-success/sanic/).
+
+## Installation
+Create a virtualenv using python with version greater than 3.5 and install dependencies
+```bash
+  pip install requirements-dev.txt
+```
+Run app using 
+```bash
+  python run.py
+```
 
 ## Contributors
 
