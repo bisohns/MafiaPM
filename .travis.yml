@@ -1,21 +1,20 @@
 sudo: false
 language: python
-services:
-  - docker
+
 cache:
   directories:
     - $HOME/.cache/pip
 
-matrix:
-  include:
-    - env: TOX_ENV=py36
-      python: 3.6
+python:
+  - "3.6"
+
 
 install:
-  - pip install -U tox- pip install codecov
+  - pip install -r requirements-dev.txt
 
 
-script: travis_retry tox -e $TOX_ENV
+script: 
+  - pytest
 
 after_success:
   - codecov
